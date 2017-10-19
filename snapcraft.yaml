@@ -1,12 +1,19 @@
 
 name: cool-retro-term # check to see if it's available
-version: '0.1' # check the version number of clementine's packages
+version: '0.2' # this is freakin' awesome
 summary: cool-retro-term is a terminal emulator. # 79 char long summary
 description: |
-  cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight.
+  First off, this is freakin' awesome. cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight.
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs
-
+apps:
+  cool-retro-term:
+    command: desktop-launch $SNAP/bin/cool-retro-term
+    plugs: 
+      - unity7
+      - x11
+      - network
+      
 parts:
   my-part:
     source: https://github.com/Swordfish90/cool-retro-term
