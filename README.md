@@ -1,9 +1,9 @@
-# coolretroterm
-A snap for Cool Retro Term
+# cool-retro-term
+A snap for Cool-Retro-Term
 
 --------------------------------------------------------------------------------------------------------------------
 
-# cool-retro-term
+See: https://github.com/Swordfish90/cool-retro-term
 
 ## Description
 cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens.
