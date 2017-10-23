@@ -1,6 +1,8 @@
 # cool-retro-term
 A snap for Cool-Retro-Term
 
+sudo snap install --devmode --edge cool-retro-term
+
 --------------------------------------------------------------------------------------------------------------------
 
 See: https://github.com/Swordfish90/cool-retro-term
