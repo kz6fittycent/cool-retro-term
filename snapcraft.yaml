@@ -23,6 +23,7 @@ apps:
       - gsettings
       - shutdown
       - firewall-control
+      # them plugs, tho...
       
 parts:
   my-part:
