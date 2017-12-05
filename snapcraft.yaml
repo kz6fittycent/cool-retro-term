@@ -23,6 +23,8 @@ apps:
       - gsettings
       - shutdown
       - firewall-control
+      - process-control
+      - system-observe
       # them plugs, tho...
       
 parts:
