@@ -1,6 +1,6 @@
 
 name: cool-retro-term # check to see if it's available
-version: '0.9' # this is freakin' awesome
+version: '0.10' # this is freakin' awesome
 summary: cool-retro-term is a terminal emulator. # 79 char long summary
 description: |
   First off, this is freakin' awesome. cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight.
@@ -63,8 +63,9 @@ parts:
       - libqt5svg5 # for loading icon themes which are svg
       - appmenu-qt5
       - locales-all
-      - libgl1
-      - libgl1-mesa-glx # getting errors associated with libGL
+      # - libgl1
+      # - libgl1-mesa-glx # getting errors associated with libGL
+      - libgl1-mesa-dev
       # make things prettier, maybe...
       
      
