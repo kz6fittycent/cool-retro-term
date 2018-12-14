@@ -1,3 +1,5 @@
+[![Snap Status](https://build.snapcraft.io/badge/kz6fittycent/cool-retro-term-1.svg)](https://build.snapcraft.io/user/kz6fittycent/cool-retro-term-1)
+
 # cool-retro-term
 A snap for Cool-Retro-Term
 
